@@ -1,0 +1,78 @@
+/*
+- Change links' `color` & `text-decoration`
+- Add some hover effects on links using the pseudo-class `a:hover`.
+*/
+
+body{
+  background-color: #ccc;
+  font-family :"Open Sans";
+  padding-top: 30px;
+  font-size: 11px;
+  color: grey;
+}
+h1, h2, h3{
+  color: black;
+  font-family: "Montserrat";
+  font-weight: 100;
+}
+
+h1{
+  font-size: 3em;
+  line-height: 1.3em;
+}
+h2{
+  font-size: 2em;
+  line-height: 1.5em;
+}
+h3{
+  font-size: 1.5em;
+  line-height: 1.6em;
+}
+
+a{
+  color: pink;
+  text-decoration: none;
+}
+a:hover{
+  color: red;
+}
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+.card{
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+td{
+  width: 33%;
+  vertical-align: top;
+}
+td p{
+  text-align: justify;
+  padding: 0 5%;
+}
+
+ul{
+  padding:0;
+}
+li{
+  padding:20px;
+  list-style-type: none;
+  display: inline;
+  font-size:2.2em;
+}
+
+.rounded_small_pic{
+  width: 100px;
+  border-radius: 50px;
+}
+.thumbnail{
+  width: 90%;
+}
